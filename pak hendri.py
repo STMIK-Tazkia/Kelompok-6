@@ -16,13 +16,19 @@ for i in range(len(x)):
         print(str(x[i])+ ' adalah ganjil')
 print('-------------')
 import fungsibilangan
+
+# Contoh daftar bilangan
+x = [1, 2, 3, 4, 5, 6]
+
 for i in range(len(x)):
     if fungsibilangan.fungsigenap(x[i]):
         print(str(x[i]) + ' ini adalah bilangan genap')
     else:
         print(str(x[i]) + ' ini adalah bilangan ganjil')
 
+# Menggunakan fungsi fungsigenap secara langsung
 hasil = fungsibilangan.fungsigenap(100002)
 print(hasil)
+
 hasil2 = fungsibilangan.fungsigenap(5000)
 print(hasil2)
